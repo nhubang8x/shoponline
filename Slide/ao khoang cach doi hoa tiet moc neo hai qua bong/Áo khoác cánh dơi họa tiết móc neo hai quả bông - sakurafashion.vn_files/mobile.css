@@ -1,0 +1,431 @@
+@charset "utf-8";
+@media only screen and (min-width : 1025px) and (max-width : 1280px){ /* xam */
+.rtop .timkiem{padding: 0 2%;padding-top: 5px;}
+.resolution { background:#ccc}
+.csschitiet figure { max-width: 98%}
+.top10sp h3 { font-size: 12px; font-weight: normal; line-height: 15px; margin-bottom: 0;}
+} 
+@media only screen and (min-width : 961px) and (max-width : 1024px){ /* cam */
+.top10sp h3 { font-size: 12px; font-weight: normal; line-height: 15px; margin-bottom: 0;}
+.rtop .timkiem{padding: 0 2%;padding-top: 5px;}
+.rtop .timkiem input[type="text"]{width: 250px;}
+.resolution { background: #FF6600} .boxsp .frame .hinh{height:146px}
+form.search{ width:90%}
+form.search input[type="text"]{ width:50%}
+.spbanchay div.slide{background:#eee; height:330px; width:246.5px !important}
+.boxsp{ width:33.33%}
+.spbanchay div.slide{height:350px; width:236.8px !important; margin:5px}
+.spbanchay div.slide h3{ height:50px}
+.supportinfo p span{ display:block; clear:both}
+.cssdathang .rdata .c1{ width:10%}
+.cssdathang .rdata .c2{ width:25%}
+.cssdathang .rdata .c3{ width:55%}
+.cssdathang .rdata .c3 .price{ width:25%; float:left} .cssdathang .rdata .c3 .qty{ width:35%; float:left} .cssdathang .rdata .c3 .amount{ width:35%; float:left; color:#f00; font-size:14px; font-weight:bold}
+.cssdathang .rdata .c4{ width:4%}
+.cssdathang .info{ float:none; width:100%; margin-bottom:20px}
+.cssdathang .thanhtien{ float:none; width:100%; margin-bottom:20px}
+form#formlog, form#formreg{padding-right:100px}
+}
+
+@media only screen and (min-width : 769px) and (max-width : 960px){ /* hồng */
+.resolution { background: #FFCCFF} 
+.top10sp h3 { font-size: 12px; font-weight: normal; line-height: 15px; margin-bottom: 0;}
+.rtop .timkiem{padding: 0 2%;padding-top: 5px;}
+.rtop .timkiem input[type="text"]{width: 250px;}
+.rtop ul li a.cap1{padding: 0px 3px;}
+.rtop .info ul li{ margin:1px;}
+.rtop .info ul.boxviews{width: 94%; background: #FFFFFF; border: 1px #E5E5E5 solid; border-top: none; box-shadow: 0px 1px 3px rgba(204, 204, 204, 0.5); position: absolute; top: 50px; z-index: 5; line-height: 22px; right: 22px; }
+.spbanchay .col-1{    width: 32%; margin-right: 0; float: left;}
+.spbanchay .col-2{width: 16%; margin: 1%; float: left; line-height: normal; margin-top:0;}
+.spbanchay .col-2 a{display: block; width:auto; height:auto; position: relative; z-index: 9; vertical-align: middle; text-align: center; overflow: hidden;
+ line-height: normal;}
+.spbanchay .bottom{position: absolute; bottom: -45px; left: 0;}
+.spbanchay .bottom .col-2 { padding-top: 15px;}
+.wid100{ margin-top:40px;}
+img[src="images/banchay.png"]{ margin:0;}
+.rfooter .info { float: left; width: 48%; margin-left: 2%;}
+.spbanchay .bottom{ display:none;}
+.spbanchay { position: relative; height: 275px;}
+.wid100{margin-top: 0px;}
+.rtop .hotro{ display:none;}
+.spnoibat .boxspmoi .frame{margin: 3px; height: auto;}
+.khuyenmaiinfo input[type="text"]{ height:19px;}
+.rmenu{ height:auto;}
+.rmenu .nav > li > a{border-left: 0px solid #fff;}
+}
+
+@media only screen and (max-width : 768px){
+.resolution {background: #66CC00} /* xanh lá */
+.rtop h1{ float:none; width:100%; margin-bottom:10px}
+.logo{ width:25%}
+.search{ width:40%}
+.cart{ width:25%}
+.info-cart{ text-align:left !important}
+.theinput{ margin-left:0 !important}
+form.search select{ display:none}
+.spbanchay div.slide{background:#eee; height:350px; width:235px !important}
+.spbanchay div.slide .hinhanh p.img img{max-height: 260px}
+.leftcol{ display:none} .content{ float:none; width:100%}
+.boxsp{ width:33.33%;height:362px;}
+.boxsp .frame .hinh{ height:210px !important; display:table !important; text-align:center; width:100%}
+.boxsp .frame .hinh a img{ max-height:200px}
+.boxsp .frame h3{ font-size:13px}
+.texttop li{ font-size:7px} .texttop li p{ font-size:11px}
+.cssdathang .rdata .c1{ width:10%}
+.cssdathang .rdata .c2{ width:25%}
+.cssdathang .rdata .c3{ width:55%}
+.cssdathang .rdata .c3 .price{ width:25%; float:left} .cssdathang .rdata .c3 .qty{ width:37%; float:left} .cssdathang .rdata .c3 .amount{ width:32%; float:left; color:#f00; font-size:14px; font-weight:bold}
+.cssdathang .rdata .c4{ width:4%}
+.cssdathang .info{ float:none; width:100% !important; margin-bottom:20px}
+.cssdathang .thanhtien{ float:none; width:100% !important; margin-bottom:20px}
+.cssdathang .btnDathang{font-size:15px}
+.rfooter .info{ width:60%} .rfooter .lienket{ width:35%}
+form#formlog, form#formreg{padding-right:100px}
+.spnoibat .boxspmoi .frame{margin: 0 5px; height: auto;}
+.top10sp h3 { font-size: 12px; font-weight: normal; line-height: 15px; margin-bottom: 0;}
+.rtop .timkiem{padding:0;padding-top: 5px;}
+.rtop .timkiem input[type="text"]{width: 250px;}
+.rtop ul li a.cap1{padding: 0px 3px;}
+.rtop .info ul li{ margin:1px;}
+.rtop .info ul.boxviews{width: 94%; background: #FFFFFF; border: 1px #E5E5E5 solid; border-top: none; box-shadow: 0px 1px 3px rgba(204, 204, 204, 0.5); position: absolute; top: 50px; z-index: 5; line-height: 22px; right: 22px; }
+.spbanchay .col-1{    width: 32%; margin-right: 0; float: left;}
+.spbanchay .col-2{width: 16%; margin: 1%; float: left; line-height: normal; margin-top:0;}
+.spbanchay .col-2 a{display: block; width:auto; height:auto; position: relative; z-index: 9; vertical-align: middle; text-align: center; overflow: hidden;
+ line-height: normal;}
+.spbanchay .bottom{position: absolute; bottom: 75px; left: 0;}
+.spbanchay .bottom .col-2 { padding-top: 15px;}
+.wid100{ margin-top:-75px;}
+img[src="images/banchay.png"]{ margin:0;}
+.rfooter .info { float: left; width: 48%; margin-left: 2%;}
+.rfooter .lienket { float: right; width: 45%; margin-left: 3%;}
+.khuyenmaiinfo input[type="text"] { border: 1px solid #ccc; padding: 2%; width: 70%; border-radius: 5px 0 0 5px; float: left; height: 20px;}
+.spnoibat .boxspmoi .frame{ margin-bottom:4px;}
+.rtop .hotro{ display:none;}
+#id-tui{display:none;}
+#id-views{display:none;}
+.rtop .info ul.boxcart{ top:45px; right:23px;}
+.spbanchay{height: 205px;}
+.wid100 { margin-top: -5px;}
+.khuyenmaiinfo input[type="submit"]{padding: 0px 9px; height: 34px;}
+input[type="button"].downqty{ margin-top:5px;}
+.cssdathang .rdata .c3{width: 45%;}
+.cssdathang .rdata .c4{width: 10%;}
+.cssdathang .rdata .c2{width: 35%;}
+.rtop .socialtop{display:none}
+}
+
+@media only screen and (max-width : 730px){ /* ban đầu 640px */
+.resolution { background: #666600} /* nâu */
+.rtop h1{ float:none; width:100%; margin-bottom:10px}
+.logo{ width:100%; float:none; text-align:center}
+.search{ width:60%; margin-left:0}
+.cart{ width:35%}
+.theinput{ margin-left:0 !important}
+form.search select{ display:none}
+.spbanchay div.slide{background:#eee; height:350px; width:194px !important}
+.spbanchay div.slide .hinhanh p.img img{max-height: 260px}
+.leftcol{ display:none} .content{ float:none; width:100%}
+.boxsp{ width:50%;}
+.boxsp .frame .hinh{ height:auto}
+.boxsp .frame .hinh a img{ max-height:none; } .boxsp .frame h3{height: }
+
+.boxspcot{width: 50%;}
+.boxspcot .frame .hinh{height: auto} .boxspcot .frame .hinh a img{ max-height:none}
+
+.rslider .cleft{ float:none; width:100%} .rslider .cright{ display:none}
+.texttop{ display:none}
+.rfooter .info{ float:none; width:100%; margin-bottom:10px}
+.rfooter .lienket{ float:none; width:100%; margin-bottom:10px; margin-left:0}
+.rfooter .social{ float:none; width:100%; margin-bottom:10px}
+.boxtin{ width:50%}
+.cssdathang .rdata .c1{ width:15%}
+.cssdathang .rdata .c2{ width:28%; padding-right:3%}
+.cssdathang .rdata .c3{ width:45%}
+.cssdathang .rdata .c3 .price{ width:100%; float:left} .cssdathang .rdata .c3 .qty{ width:55%; float:left} .cssdathang .rdata .c3 .amount{ width:40%; float:left; color:#f00; font-size:12px; font-weight:bold}
+.cssdathang .rdata .c4{ width:4%; padding-top:20px}
+.cssdathang .rdata .c5{ width: 28% !important}
+.cssdathang .info{ float:none; width:100% !important; margin-bottom:20px}
+.cssdathang .thanhtien{ float:none; width:100% !important; margin-bottom:20px}
+form#formlog{padding-right:130px}
+form#formreg{padding-right:20px}
+.form_line span.tit{ width:30%; float:left; display:block}
+.form_line input{ border:1px solid #ccc; padding:5px; width:40%; float:left}
+.neobox{ float:none; margin-left:0; margin-bottom:10px}
+
+.padding20{padding:0 5px}
+.rtop .timkiem{ width:50%; float:left; margin:0; padding:0; margin-top:5px;}
+.rtop .info{  margin:0; padding:0;}
+#id-cart img{ display:none;}
+.rtop .info ul.boxcart{right: 6%;}
+.rtop .timkiem input[type="text"]{width: 50%;}
+.rtop .timkiem input[type="submit"]{padding: 5px 5px;}
+.banner{ position:relative;background: #FAF6DC;}
+.logo img{ float:left; margin-left:4%;}
+.spbanchay { height: 175px;}
+
+
+.rfooter .info{ margin:0; padding:0; width:98%; margin-left:1%;}
+.rfooter .lienket{margin:0; padding:0; width:98%; margin-left:1%;}
+.khuyenmaiinfo input[type="text"]{height: 32px; padding:0px; padding-left:3%;}
+.form_line input.btnlogin{ margin-top: 10px;}
+.form_line input{ width:60%;}
+.cssdathang .rdata .c4{ display:none;}
+.cssdathang .rdata .c3{width: 40%;}
+.cssdathang .rdata .c2{width: 40%; padding-right: 1%;}
+.spnoibat .boxspmoi{width:33.33%;} 
+.boxtin{width: 100%;}
+.rtop .info ul li{ float:right;}
+}
+
+@media only screen and (max-width : 590px){ 
+.resolution { background: #666600} /* nâu, Hồng copy đoạn trên, chỉnh .spnoibat .boxspmoi{width:50%; text-align:center}  */
+.rtop h1{ float:none; width:100%; margin-bottom:10px}
+.logo{ width:100%; float:none; text-align:center}
+.search{ width:60%; margin-left:0}
+.cart{ width:35%}
+.theinput{ margin-left:0 !important}
+form.search select{ display:none}
+.spbanchay div.slide{background:#eee; height:350px; width:194px !important}
+.spbanchay div.slide .hinhanh p.img img{max-height: 260px}
+.leftcol{ display:none} .content{ float:none; width:100%}
+.boxsp{ width:50%;}
+.boxsp .frame .hinh{ height:auto}
+.boxsp .frame .hinh a img{ max-height:none; } .boxsp .frame h3{height: }
+
+.boxspcot{width: 50%;}
+.boxspcot .frame .hinh{height: auto} .boxspcot .frame .hinh a img{ max-height:none}
+
+.rslider .cleft{ float:none; width:100%} .rslider .cright{ display:none}
+.texttop{ display:none}
+.rfooter .info{ float:none; width:100%; margin-bottom:10px}
+.rfooter .lienket{ float:none; width:100%; margin-bottom:10px; margin-left:0}
+.rfooter .social{ float:none; width:100%; margin-bottom:10px}
+.boxtin{ width:50%}
+.cssdathang .rdata .c1{ width:15%}
+.cssdathang .rdata .c2{ width:28%; padding-right:3%}
+.cssdathang .rdata .c3{ width:45%}
+.cssdathang .rdata .c3 .price{ width:100%; float:left} .cssdathang .rdata .c3 .qty{ width:55%; float:left} .cssdathang .rdata .c3 .amount{ width:40%; float:left; color:#f00; font-size:12px; font-weight:bold}
+.cssdathang .rdata .c4{ width:4%; padding-top:20px}
+.cssdathang .rdata .c5{ width: 28% !important}
+.cssdathang .info{ float:none; width:100% !important; margin-bottom:20px}
+.cssdathang .thanhtien{ float:none; width:100% !important; margin-bottom:20px}
+form#formlog{padding-right:130px}
+form#formreg{padding-right:20px}
+.form_line span.tit{ width:30%; float:left; display:block}
+.form_line input{ border:1px solid #ccc; padding:5px; width:40%; float:left}
+.neobox{ float:none; margin-left:0; margin-bottom:10px}
+
+.padding20{padding:0 5px}
+.rtop .timkiem{ width:50%; float:left; margin:0; padding:0; margin-top:5px;}
+.rtop .info{  margin:0; padding:0;}
+#id-cart img{ display:none;}
+.rtop .info ul.boxcart{right: 6%;}
+.rtop .timkiem input[type="text"]{width: 50%;}
+.rtop .timkiem input[type="submit"]{padding: 5px 5px;}
+.banner{ position:relative;background: #FAF6DC;}
+.logo img{ float:left; margin-left:4%;}
+.spbanchay { height: 175px;}
+
+
+.rfooter .info{ margin:0; padding:0; width:98%; margin-left:1%;}
+.rfooter .lienket{margin:0; padding:0; width:98%; margin-left:1%;}
+.khuyenmaiinfo input[type="text"]{height: 32px; padding:0px; padding-left:3%;}
+.form_line input.btnlogin{ margin-top: 10px;}
+.form_line input{ width:60%;}
+.cssdathang .rdata .c4{ display:none;}
+.cssdathang .rdata .c3{width: 40%;}
+.cssdathang .rdata .c2{width: 40%; padding-right: 1%;}
+.spnoibat .boxspmoi{width:50%; text-align:center} 
+.boxtin{width: 100%;}
+.boxtin .frame .hinh{ width:100%; text-align:center} .boxtin .frame .infotin{ width:100% !important; margin-right:4px} /* Hồng viết thêm, hình ở trên mô tả ngắn ở dưới, danh mục blog */
+.csschitiet{ font-size:140%; line-height:150%} /* Hồng move từ block dưới lên */
+.rtop .info ul li{ float:right;}
+}
+/* Landscape */
+/* Portrait */
+@media only screen and (max-width : 480px){
+.resolution { background: #f00} /* đỏ */
+.rtop h1{ float:none; width:100%; margin-bottom:10px}
+.rtop .dangnhap{ display:block; float:none; width:95%; margin:0; padding:0; margin-bottom:10px; padding-left:5%}
+.rtop .hotline{ float:none; margin:0; padding:0; margin-bottom:10px; padding-left:30px}
+.rtop .email{ float:none; margin:0; padding:0; margin-bottom:10px; padding-left:30px; margin-left:10px}
+.rtop{ height:120px}
+
+.logo{ width:100%; float:none; text-align:center}
+.search{ width:60%; margin-left:0; margin-right:0}
+.cart{ width:38%; margin-left:0}
+form.search select{ display:none}
+.cimg{ width:100% !important}
+.cinfo{ width:100% !important}
+.info-cart{ width:35% !important; text-align:left!important}
+.spbanchay div.slide{background:#eee; height:250px; width:193px !important}
+.spbanchay div.slide .hinhanh p.img{ height:170px}
+.spbanchay div.slide .hinhanh p.img img{max-height: 160px; max-width:100px !important}
+.leftcol{ display:none} .content{ float:none; width:100%}
+
+.rslider .cleft{ float:none; width:100%} .rslider .cright{ display:none}
+.texttop{ display:none}
+.rfooter .info{ float:none; width:100%; margin-bottom:10px}
+.rfooter .lienket{ float:none; width:100%; margin-bottom:10px; margin-left:0}
+.rfooter .social{ float:none; width:100%; margin-bottom:10px}
+.cimg{ width:100%; float:none; margin-bottom:10px} .cinfo{ width:100%; float:none}
+input.themvaogiohang{ width:150px !important; height:40px !important; font-size:18px; background: #008000 !important}
+.boxtin{ width:100%; height:auto; margin-bottom:10px} .boxtin .frame h3{ font-size:16px; height:auto !important}
+/* Hồng disable dòng này.csschitiet{ font-size: 120%; line-height:150%} */
+.theinput{ margin-left:0 !important}
+.cssdathang .rdata:first-child{ display:none}
+.cssdathang .rdata{ margin-bottom:10px !important; padding-bottom:10px}
+.cssdathang .rdata .c1{ width:30% !important; height:60px}
+.cssdathang .rdata .c2{ width:68%!important; height:80px}
+.cssdathang .rdata .c3{ width:100%!important; text-align:left; border-top:1px dashed #eee; overflow:hidden; padding-top:5px}
+.boluoi{display:block; float:left; margin-right:10px}
+.cssdathang .rdata .c3 .price{ width:40%; float:left; padding-top:3px} .cssdathang .rdata .c3 .qty{ width:58%; float:left} .cssdathang .rdata .c3 .amount{ width:100%; float:left; color:#f00; font-size:13px; font-weight:bold; margin-top:5px}
+.cssdathang .rdata .c4{ float:none; position:absolute; left:0; top:0}
+.cssdathang .rdata .c5{ width:50% !important}
+.cssdathang .rdata .c6{width:30% !important ;margin-top:10px}
+.cssdathang .info{ float:none; width:width:100% !important; margin-bottom:20px; background-image:none}
+.cssdathang .info::before{ content:'Nhập thông tin người mua'; display:block; clear:both; margin-top:20px; margin-bottom:10px; font-weight:bold}
+.cssdathang .thanhtien{ float:none; width:100% !important; margin-bottom:20px}
+
+.cssdathang .btnDathang{font-size:15px}
+.cartname{ background-image:none}
+form#formlog{ background-image:none}
+form#formreg{padding-right:20px; background-image:none}
+.form_line span.tit{ width:30%; float:left; display:block}
+.form_line input{ border:1px solid #ccc; padding:5px; width:40%; float:left}
+.form_line input.macapcha{ width:120px !important;-webkit-appearance: none}
+div.traloi{ margin-left:30px}
+.neobox{ float:none; margin-left:0; margin-bottom:10px; font-size:12px}
+.introhome{ font-size:15px}
+.advcat a{ width:50%;margin-left:0} .advcat a:first-child{width:100% !important; margin-left:0}
+
+.rtop{height: auto;}
+.rtop .timkiem{ width:100%;}
+
+.rtop .timkiem input[type="text"]{width: 70%;}
+.banner{position: relative; background: #FAF6DC; padding-top: 40px;}
+.logo img{ float:left;}
+.spbanchay .col-1{ display:none;}
+.spbanchay .col-2{ width: 48%; margin: 1%; float: left; line-height: normal; margin-top: 0;}
+.spnoibat .boxspmoi{ width:50%;}
+
+.boxsp{ width:100%;}
+.boxsp .frame .hinh{ height:230px}
+.boxsp .frame .hinh a img{ max-height:230px}
+.boxsp .frame h3{ height:40px; font-size:13px}
+.boxspcot{ width:100%;}
+.boxspcot .frame .hinh{height: auto} .boxspcot .frame .hinh a img{ max-height:auto}
+
+.rfooter .info{ margin:0; padding:0; width:98%; margin-left:1%;}
+.rfooter .lienket{margin:0; padding:0; width:98%; margin-left:1%;}
+.khuyenmaiinfo input[type="text"]{height: 32px; padding:0px; padding-left:3%;}
+.form_line input.btnlogin{ margin-top: 10px;}
+.form_line input{ width:60%;}
+
+.boxtin{width: 100%;}
+.rtop .info ul li{ float:left;}
+.sapxepsp{ display:none;}
+/* Hồng disable dòng này của Lộc .boxtin .frame .infotin{ width:60%; } */
+.boxtin .frame .infotin h3{font-weight:normal;}
+.rtop .info ul.boxcart{ top:80px;}
+.cssdathang .rdata .c5{ float: left; width: 50%;}
+.cssdathang .rdata .c6{width: 30%;}
+.theinput{width: 70%;}
+.notecart{width: 72%; margin-left: 10px; padding: 4px;}
+.cartinfo > div > span{line-height: 1.6; width: 100%; display: block; clear: both; padding-top: 10px;}
+.boxtin .frame{ margin:0; padding:0; padding-left:10px; padding-top:10px;}
+
+.form_line span.tit{width: 100%;}
+form#formlog{ margin: 0px; background: #eee url(img/login.png) right center no-repeat; padding: 20px;padding-right: 30px;}
+.form_line input{ width:100%;}
+.form_line input { width: 95%; }
+.lcontact{width:100%;}
+.rcontact{width:100%;}
+
+}
+/* Portrait */
+@media only screen and (min-width : 240px) and (max-width : 320px){
+  .resolution { background: #FF00FF} /* tím */
+}
+
+@media only screen and (max-width : 320px){
+.resolution { background: #66CCFF} /* xanh dương */
+.rtop h1{ float:none; width:100%; margin-bottom:10px; font-size:10px}
+.rtop .dangnhap{ display:block; float:none; width:95%; margin:0; padding:0; margin-bottom:10px; padding-left:5%}
+.rtop .hotline{ float:none; display:block; width:90%;  margin:0; padding:0; margin-bottom:10px; padding-left:8%}
+.rtop .email{ float:none; margin:0; padding:0; margin-bottom:10px; padding-left:30px}
+.rtop{ height:120px}
+.logo{ width:100%; float:none; text-align:center}
+.search{ width:60%; margin-left:0; margin-right:0}
+.rtop .timkiem input[type="text"]{width:50%}
+.rtop .socialtop{display:none}
+
+.cart{ width:38%; margin-left:0}
+form.search select{ display:none}form.search select{ display:none}
+.spbanchay div.slide{background:#eee; height:350px; width:302px !important}
+.spbanchay div.slide .hinhanh p.img img{max-height: 260px}
+.leftcol{ display:none} .content{ float:none; width:100%}
+.boxsp{ width:100%;}
+
+.rslider .cleft{ float:none; width:100%} .rslider .cright{ display:none}
+.texttop{ display:none}
+.rfooter .info{ float:none; width:100%; margin-bottom:10px}
+.rfooter .lienket{ float:none; width:100%; margin-bottom:10px; margin-left:0}
+.rfooter .social{ float:none; width:100%; margin-bottom:10px}
+.theinput{ margin-left:0 !important}
+.cartname{ background-image:none}
+.cssdathang .rdata:first-child{ display:none}
+.cssdathang .rdata{ margin-bottom:10px !important; padding-bottom:10px; position:relative; min-hight:140px}
+.cssdathang .rdata .c1{ width:30% !important; height:60px}
+.cssdathang .rdata .c2{ width:68%!important; height:80px}
+.cssdathang .rdata .c3{ width:100%!important; text-align:center}
+.cssdathang .rdata .c3 .price{ width:40%; float:left; padding-top:3px} .cssdathang .rdata .c3 .qty{ width:58%; float:left} .cssdathang .rdata .c3 .amount{ width:100%; float:left; color:#f00; font-size:13px; font-weight:bold}
+.cssdathang .rdata .c4{ float:none; position:absolute; left:0; top:0}
+.cssdathang .rdata .c5{ width:50% !important}
+.cssdathang .rdata .c6{width:30% !important ;margin-top:10px}
+.cssdathang .info{ float:none; width:width:100% !important; margin-bottom:20px}
+.cssdathang .thanhtien{ float:none; width:100% !important; margin-bottom:20px}
+.neobox{ float:none; margin-left:0; margin-bottom:10px; font-size:12px}
+.introhome{ font-size:15px}
+.advcat a{ width:50%;margin-left:0} .advcat a:first-child{width:100% !important; margin-left:0}
+.boxtin{ width:100%; height:auto; margin-bottom:10px} .boxtin .frame h3{ font-size:16px; height:auto !important} 
+.cssdathang .rdata{ min-height:180px}
+input.delete{ margin-top:10px}
+.rtop{ height:auto;}
+.boxspcot{ width:100%;}
+.rtop .info ul.boxcart{ left:0px; width:100% !important}
+.search img{ max-width: 175px;}
+.logo img{max-width: 65%;}
+.cssdathang .info select{ margin-left:25px;}
+
+.form_line span.tit{width: 100%;}
+form#formlog{ margin: 0px; background: #eee url(img/login.png) right center no-repeat; padding: 20px;padding-right: 30px;}
+.form_line input { width: 95%; }
+.lcontact{width:100%;}
+.rcontact{width:100%;}
+}
+
+@media screen and (max-width: 769px) {
+.nav > li > .parent { background:url(img/mparent.png) center no-repeat; display:block; position:absolute; z-index:9999; right:10px; top:4px; width:100px; height:30px; text-indent:-9999px}
+.nav > li > ul > li > .parent { background:url(template/img/mparent.png) center no-repeat; display:block; position:absolute; z-index:9999; right:-5px; top:4px; width:100px; height:30px; text-indent:-9999px}
+.rfooter ul.tinnho li{ background:none; padding-left:0px;}
+.rfooter ul.tinnho li a{ padding-left:0px;}
+.active {  display: block}
+.toggleMenu{ display:block; float:left}
+.nav{ display:none}
+.nav > li { clear:both; float: none }
+.nav ul { display: block; width: 100% }
+.nav > li > a { border-top:1px solid #777}
+.nav > li.hover > ul , .nav li li.hover ul { position: static }
+.boxspcot .frame{margin: 3px;}
+.spbanchay .bottom{ display:none;}
+.spnoibat .boxspmoi .frame{ margin-bottom:0px; margin: 0 3px;}
+.rmenu .nav > li > a:hover{ background:#eee; color:#333;}
+.boxsp .frame{margin: 3px;}
+.boxsp{ height:auto;}
+.rmenu .nav > li > a{ margin-top:0px; border-left:0px #eee solid; background:#666;}
+.toggleMenu{ margin:0;}
+.nav{background:#666;}
+.cartinfo{border: 0px dashed #ccc;}
+.cssdathang .rdata:first-child{ display:none;}
+}

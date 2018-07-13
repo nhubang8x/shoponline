@@ -1,0 +1,379 @@
+﻿/* Code dạo */
+.padding20{ padding:0 20px}
+.boluoi{display:none; color:#f00}
+
+.fl{float:left} .fr{float:right}
+.fb-box{padding:10px 0 10px; margin-top: 10px;}
+/* CSS rtop */
+.header{height:36px}
+.rtop{ height:auto; background:#EBF4DF; line-height:36px; z-index:9999; position:fixed; top:0; width:100%;border-bottom: 1px solid #eee;}
+.rtop .hotro{float:left}
+.rtop .timkiem{float:left; padding:0 5%; padding-top:5px}
+.rtop .info{float:right}
+.rtop .socialtop{float:left; margin-top:-8px}
+
+.rtop .timkiem input[type="text"]{padding:5px 10px; border:1px solid #ff9000; width:400px; float:left; color:#ff9000}
+.rtop .timkiem input[type="submit"]{padding:5px 10px; background:#ff9000;border:1px solid #ff9000; float:left; color:#fff; cursor:pointer}
+.rtop .timkiem input[type="submit"]:hover{background:#252525}
+
+.rtop .info ul li{float:left; margin-right:10px} .rtop .info ul li:last-child{margin-right:0}
+.rtop .info ul.boxthanhvien{width:150px; background: #FFFFFF; border: 1px #E5E5E5 solid;  border-top: none; box-shadow: 0px 1px 3px rgba(204, 204, 204, 0.5); position: absolute; top: 36px; z-index: 5; display: none; line-height: 22px; padding:6px 0px 0 10px}
+.rtop .info ul.boxthanhvien img{float:left; padding-right:3px; max-width:10px; padding-top:6px} .rtop .info ul.boxthanhvien a{color:#6c6c6c; padding-left:3px}
+.rtop .info ul.boxthanhvien p{padding:5px 0}
+
+.rtop .info ul.boxcart{width:325px; background: #FFFFFF; border: 1px #E5E5E5 solid;  border-top: none; box-shadow: 0px 1px 3px rgba(204, 204, 204, 0.5); position: absolute; top: 36px; z-index: 5; display: none; line-height: 22px; padding:3px 0px 0 10px; right:84px}
+
+.rtop .info ul.boxviews{width:900px; background: #FFFFFF; border: 1px #E5E5E5 solid;  border-top: none; box-shadow: 0px 1px 3px rgba(204, 204, 204, 0.5); position: absolute; top: 36px; z-index: 5; display: none; line-height: 22px; padding:3px 0px 0 10px; right:40px}
+/* CSS banner */
+.banner{ padding-top:20px; background:url(../upload/giaodien/banner.png); height:90px}
+.logo{ float:left; width:20%} .logo img{ width:auto; max-width:100%}
+.search{ float:right; width:50%;text-align:right} .search img{max-width:200px}
+
+/* CSS search box */
+form.search{ border:1px solid #ccc; display:inline-block; width:80%; margin-top:10px}
+form.search select{ padding:10px; border:0; background:#eee; float:left; display:block; border-right:1px solid #ccc; cursor:pointer;-webkit-appearance: none; background:url(images/down-icon.png) right center no-repeat; padding-right:15px}
+form.search select > option{ line-height:30px !important}
+form.search input[type="text"]{ border:0; padding:10px; width:auto; max-width:55%}
+form.search input[type="submit"]{ background:#FF5B84 url(template/img/search.png) center no-repeat; text-indent:-9999px; width:39px; height:39px; margin:-1px; cursor:pointer; float:right}
+/* CSS cart */
+
+.ghichusp{border:1px dashed #333; padding:10px; color:#000; font-size:13px}
+/* CSS advcat */
+.advcat{ margin:1px}
+.advcat a{ float:left; width:24.5%; display:block; margin-left:0.5%} .advcat a:first-child{ width:50% !important; margin-left:0}
+.advcat a img{ width:100%;}
+.advcat::after{ content:''; display:block; clear:both}
+/* CSS rslider */
+.rslider{ display:inline-block; margin-top:5px; width:100%;}
+.rslider .cleft{ float:left; width:70%} .rslider .cleft img{ border:0; max-width:100%}
+.rslider .cright{ float:right; width:30%}
+.rslider .cright img{ width:100%; float:left; border:0;}
+
+/* CSS spbanchay spnoibat tinnoibat*/
+.spbanchay{position:relative; height:566px} .spbanchay::after{ content:''; display:block; clear:both}
+.spbanchay .bottom{position: absolute; bottom: -10px; left: 0}
+.spbanchay img{max-width:100%}
+.spbanchay .col-1{width:278px; margin-right:10px; float:left}
+.spbanchay .col-gop{width:50%; float:left}
+.spbanchay .col-2{width:182px; margin-right:10px; float:left; line-height:normal}
+.spbanchay .col-2 a{display: block; width: 182px; height: 182px; position: relative; z-index: 9; vertical-align: middle; text-align: center; overflow:hidden; line-height:normal}
+.spbanchay .bottom .col-2{padding-top: 95px;}
+
+.spbanchay .top .col-2 a:last-child{margin-top:10px}
+
+.spnoibat{position:relative} 
+.spnoibat .boxspmoi{width:25%; float:left} .spnoibat .boxspmoi .frame{margin:0 5px; height:240px} .spnoibat a img{max-width:100%; max-height:240px}
+
+
+.bframe{ border:1px solid #ccc; border-top:none; padding:10px 0}
+#tinnoibat li { clear:both; height:50px !important; width:92% !important; margin:0 auto; border-bottom:1px dashed #ccc; margin-bottom:10px}
+#tinnoibat li img{ width:40px; height:30px; float:left; margin-right:5px; margin-top:5px; border:1px solid #eee}
+
+.introhome{ border:1px solid #ccc; margin-top:20px; background:url(template/img/bgintrohome.jpg) right bottom no-repeat; width:96%; padding:2%; text-align:justify}
+.topadv img{ border:0; max-width:100%}
+ul#marquee{ width:100% !important}
+ul#marquee li{ width:25% !important; float:left}
+/* CSS rfooter */
+a.xemtatca{font-style:italic; background:url(../images/icon_next.gif) left no-repeat; padding-left:15px}
+.rfooter{ overflow:hidden; border-top:1px solid #eee; border-bottom:1px solid #ccc; margin:10px 0; padding:10px 0}
+.rfooter .info{ float:left; width:50%}
+.rfooter .info .hinh{float:left; margin-right:10px; width:200px} .rfooter .info .hinh img{border:2px solid #666; max-width:100%}
+.rfooter .info .ten h3{font-size:14px; text-align:left; margin:0; line-height:22px}
+.rfooter ul.tinnho{padding:10px 0; border-top:1px solid #eee} 
+.rfooter ul.tinnho li{background:url(../images/sakura.png) left no-repeat; padding:5px 0} .rfooter ul.tinnho li a{padding-left:25px; font-weight:bold}
+
+.rfooter ul.tinhotro li{background:url(../images/aclosed_1.gif) left no-repeat; padding:5px 0} .rfooter ul.tinhotro li a{padding-left:15px}
+.rfooter .social{padding-top:20px}
+
+.rfooter .lienket{ float:right; width:45%; margin-left:5%}
+.slogan{text-align:center; padding-bottom:20px; overflow:hidden}
+/* CSS category */
+.tieude{ height:30px; line-height: 20px; border: 1px solid #D0D0D0; font-weight: bold;   background: #8B7158 url(../images/titlebg.gif) no-repeat top left}
+.tieude h2{padding:3px 5px 2px 30px; font-size: 12px;text-transform: uppercase; float:left; margin:0; color: #8B7158;} .tieude h2 a{color: #8B7158}
+.bannercat img{ border:0; width:100%; margin-top:10px}
+
+.category{ border-top:2px solid #333; padding:5px 0; text-align:center; width:100%; text-transform:uppercase; font-weight:bold; margin-top:20px; background:#999; color:#fff; position:relative}
+
+.numpage{ padding:1px 7px; border-radius:3px;background: #fff; border: 1px solid #8B7158; color: #8B7158; margin:5px 2px; float:left}
+.numpageactive{ background: #8B7158; color:#fff}
+.mframe{position:relative} .mframe::after{ content: ""; display: block; clear:both} .bordertop{ border-top:1px solid #eee}
+
+.toggleMenu { display: none; background: #666 url(../images/threeline.png) left 8px center no-repeat; padding: 10px 25px 10px 45px; color: #fff; margin-left:1%; font-size:16px} .toggleMenu:hover{ color:#fff}
+.nav { list-style: none; background:url(images/1bg-menutop.png); margin:0 auto; {MWIDTH}}
+.nav:before, .nav:after { content: " "; display: table; } .nav:after { clear: both;}
+.nav ul { list-style: none; width:200px; position:relative;} .nav a{display:block}
+
+.nav li { position: relative; border-right:none; }
+.nav > li { float: left}
+.nav > li > .parent { background:url(template/img/parent.png) center no-repeat; display:block; position:absolute; z-index:9999; right:5px !important; top:14px; width:21px; height:12px; text-indent:-9999px}
+.nav > li > ul > li > .parent {display:none}
+
+.rmenu .nav > li > a { display: block; font-weight:bold; text-transform:uppercase; padding: 10px 20px !important; color:#fff; margin-top:0px; border-left:1px solid #fff} 
+.rmenu .nav li li a:hover{text-decoration:underline}
+.nav li  ul { position: absolute; left: -9999px; z-index:9999;}
+
+.rmenu .nav > li.hover > ul { left: 0; background:url(../images/menu-bg.gif); padding-top:10px} 
+.nav li li.hover ul { left: 100%; top: 0;} .nav li li{ padding:0;}
+.rmenu .nav li li a { display: block; background:url(../images/menu-bg.gif); position: relative; z-index:100; padding:5px 10px; font-weight:bold; color:#fff; text-transform:uppercase}
+.nav li li li a { background:#888; z-index:200; border-top: 1px solid #777;}
+
+/* Style */
+
+/* CSS default */
+.regsuccess{ text-align:center; text-transform:uppercase; font-weight:bold; border:1px dashed #009900; border-radius:5px; padding:10px; color:#FF3300}
+.red{ color:#f00} .blue{ color:#0066FF}
+.supportinfo{ display:block; margin:10px}
+.supportinfo img{ border:0; max-width:100%; text-align:center; margin-top:-10px}
+.supportinfo p{ padding:3px 5px 3px 25px; background:#eee url(img/support.png) left center no-repeat; border:1px solid #ccc; margin-top:10px; border-radius:5px; font-size:12px}
+.supportinfo p span{ font-weight:bold; color:#f00}
+.supportinfo p a{ display:block; float:right} .supportinfo p a img{ width:15px; margin-left:5px; margin-bottom:-4px}
+
+.khuyenmaiinfo{ display:block}
+.khuyenmaiinfo img{ border:0; max-width:100%; text-align:center; margin-top:-10px}
+.khuyenmaiinfo input[type="text"]{ border:1px solid #ccc; padding:2%; width:250px; border-radius:5px 0 0 5px; float:left}
+.khuyenmaiinfo input[type="checkbox"]{ margin-right:2px}
+.khuyenmaiinfo input[type="submit"]{height:35px; padding:0px 10px; background:#71be0f; border-radius:0 5px 5px 0; color:#fff; cursor:pointer} .khuyenmaiinfo input[type="submit"]:hover{ background: #FF6600}
+
+.bookinginfo{ display:block; margin:10px}
+.bookinginfo img{ border:0; max-width:100%; text-align:center; margin-top:-10px}
+.bookinginfo input[type="text"]{ border:1px solid #ccc; padding:2%; width:96%; margin:5px 0; border-radius:5px}
+.bookinginfo input[type="checkbox"]{ margin-right:2px}
+.bookinginfo input[type="submit"]{ padding:7px 20px; width:120px; background:#2CC6C6; border-radius:5px; color:#fff; margin-top:20px; margin:0 auto; display:block; cursor:pointer} .bookinginfo input[type="submit"]:hover{ background: #FF6600}
+.bookinginfo textarea{ width:96%; height:50px; border:1px solid #ccc; border-radius:5px; padding:2%}
+.bookinginfo select{ width:100%; border:1px solid #ccc; padding:5px; border-radius:5px}
+.bookinginfo input.capcha{ width:50%; float:right}
+.bookinginfo img.capcha{ margin-top:5px; border:1px solid #eee}
+.mxhinfo{text-align:center}
+.mxhinfo img.icon{ border:0; margin:10px 3px}
+
+ul#nhanxet{} ul#nhanxet li{ text-align:center}
+ul#nhanxet p img{ max-width:80%; border-radius:100%; border:3px solid #eee}
+
+a.gButton{ padding:10px 15px 10px 37px; font-size:15px; text-transform:uppercase; margin:10px; text-decoration:none !important; color:#fff !important; border-radius:8px; box-shadow:2px 2px 2px #ccc}
+a.bMuangay{background:#E74C3C url(img/bMuangay.png) left center no-repeat} a.bMuangay:hover{ background-color:#f35040}
+a.bChitiet{background:#2ECC71 url(img/bChitiet.png) left center no-repeat} a.bChitiet:hover{ background-color:#31d878}
+a.bXemdemo{ background:#9B59B6 url(img/bXemdemo.png) left center no-repeat} a.bXemdemo:hover{ background-color:#a460c0}
+a.bDownload{ background:#F39C12 url(img/bDownload.png) left center no-repeat} a.bDownload:hover{ background-color:#fea519}
+.listkey{ border:1px solid #ccc; padding:10px; border-top:none} .listkey::after{ content:''; display:block; clear:both}
+.listkey .keys{ float:left; list-style:none; margin: 3px 3px 0 0}
+.listkey .tag0{ font-size:11px} .listkey .tag1{ font-size:14px; font-weight:bold} .listkey .tag2{ font-size:13px} .listkey .tag4{ font-size:16px} .listkey .tag5{ font-size:16px; font-weight:bold} .listkey .tag6{ font-size:12px}  .listkey .tag7{ font-size:10px; font-weight:bold} .listkey .tag8{ font-size:15px} .listkey .tag9{ font-size:9px; font-weight:bold} .listkey .tag10{ font-size:14px} .listkey .tag11{ font-size:10px; font-weight:bold} .listkey .tag12{ font-size:18px} .listkey .tag13{ font-size:12px; font-weight:bold} .listkey .tag14{ font-size:16px} .listkey .tag15{ font-size:10px; font-weight:bold} .listkey .tag16{ font-size:17px; font-weight:bold} .listkey .tag17{ font-size:10px} .listkey .tag18{ font-size:15px; font-weight:bold} .listkey .tag19{ font-size:8px} .listkey .tag20{ font-size:10px; font-weight:bold} 
+.listkey strong{ font-size:20px}
+/* CSS breadcrumb */
+.breadcrumb{ white-space:nowrap; display:inline-block; padding:0 0 5px 0}
+.breadcrumb strong{ margin:0 3px 0 6px}
+/* CSS canh trái phải */
+.canhtrai{ float:left}
+.canhphai{ float:right}
+.canhgiua{ text-align:center}
+
+/* CSS boxsp */
+.boxsp{ width:33.33%; float:left}
+.boxsp .frame{ margin:5px 3px 10px 3px; position:relative; border:1px solid #ddd} .boxsp .frame:hover{box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);}
+.boxsp .frame .hinh{ height:240px !important; text-align:center; width:100%}
+.boxsp .frame .hinh a img{ width:auto; max-width:100% !important; max-height:230px}
+.boxsp .frame .iconimg{ position:absolute; top:0; right:0} .boxsp .frame .icontext{ position:absolute; top:5px; right:5px; padding:3px 7px; background-color: rgba(255,255,255,0.6); color:#f22e00; border-radius:5px; border: 1px dashed #f22e00;}
+.boxsp .frame span.giamgia{ display:block; position:absolute; left:5px; top:5px; padding:3px 7px; background:#f22e00; color:#fff; border-radius:5px; font-size:16px; font-weight:bold; border:1px dashed #fff} .boxsp .frame span.giamgia::after{ content:'%'; font-size:12px; margin-left:3px} .boxsp .frame span.giamgia::before{ content:'-'; font-size:12px}
+.boxsp .frame .price{padding: 5px; overflow:hidden} .boxsp .frame .price img{float:left; padding-top:4px}
+.boxsp .frame .price .giaban{color:#8B7158; font-size:14px; font-weight:bold; padding-left:5px; float:left}
+.boxsp .frame .price p{float:right}
+.boxsp .frame h3{ height:40px; margin:0; font-size:12px; color:#666; font-weight:normal; padding:0 5px; text-align:justify; border-bottom:1px dashed #ccc; line-height:18px} 
+.boxsp .frame h3 a{color:#666} .boxsp .frame h3 a:hover{text-decoration:underline}
+
+/* CSS chitiet */
+.tieude-chitiet{ height:30px; margin:7px 0 15px 0}
+.dframe{ border:1px solid #ccc}
+.csschitiet{ display:block; position:relative; text-align:justify; font-size:17px; color:#000000; font-family:"Times New Roman"; line-height:24px}
+.csschitiet img{max-width:100% !important; height:auto !important; margin-bottom:10px;}
+.csschitiet h1,h2,h3,h4{ margin:10px 0; line-height:25px}
+.csschitiet ul{ margin-left:10px !important;}
+.csschitiet ul li{ background:url(../images/li-cap1.png) left top no-repeat; padding-left:120px !important; list-style:none !important;}
+.csschitiet ul li ul li{ background:url(../images/li-cap2.png) top center no-repeat; padding-left:20px !important; list-style:none !important;}
+.csschitiet ol{ margin-left:32px !important;} .csschitiet ol li{ list-style-type: decimal} .csschitiet ol li ol li{ list-style-type: decimal}
+.ten{ line-height:24px; text-align:justify} /* Hồng viết, line-height tên tiêu đề blog */
+
+.csschitiet table{ margin:15px auto; width:100% !important; max-width:100% !important; border:1px solid #F8F8F8; border-collapse: collapse; 
+border-spacing: 0}
+.csschitiet table img{ display:block; margin:0 auto; text-align:center; vertical-align:middle}
+.csschitiet tr:first-child {background-color: #F8F8F8;color:#000} .csschitiet td, th{padding: 4px}
+.csschitiet iframe{ width:1000px; height:600px; max-width:100% !important; max-height:auto !important}
+.csschitiet figure { width: auto; max-width: 100%; border: thin solid #eee; text-align:center; margin:10px auto !important }
+.csschitiet figure img{ width:auto; max-width:100% !important; margin-bottom:0 !important}
+.csschitiet figure figcaption {  text-align: center;  font-size: 15px!important; text-indent: 0; padding:5px 0; background:#EEEEEE}
+.csschitiet a{ color:#0066FF; text-decoration:underline}
+
+.neobox{ border:1px solid #eee; border-radius:5px; padding:10px; float:right; margin-left:10px; background:url(../images/bgintrohome.jpg) top right no-repeat} .neobox::after{ content:''; display:block; clear:both} .neobox::before{ content:'Nội dung bài viết'; display:block; text-decoration:underline; font-weight:bold}
+.neobox a{ display:block; clear:both; color: #008080; margin:5px 0; text-decoration:none} .neobox a:hover{ color:#333}
+
+#product .textThuoctinh{float:left; padding-right:10px}
+#product input[type="radio"]{margin:4px 3px 0px 3px} #product label{margin:4px}
+
+/* Box tin */
+.boxtin{ width:100%; float:left} .boxtin .frame{ margin:2px; height:100%; padding:2px;border-bottom: 1px solid #ccc;} 
+.boxtin .frame .hinh{ width:32%; float:left; padding:20px 0 0 0} .boxtin .frame .infotin{ width:67%; text-align:justify; float:right; padding:20px 0 0 0} 
+.boxtin .frame .hinh img{ border:0; max-width:100%; max-height:230px} 
+.boxtin .frame h3{ text-align:left; font-size:18px; margin:0; line-height:24px; height:87px; text-transform:uppercase} .boxtin .frame .des{ text-align:left; font-size:15px} .boxtin .frame .ngaydang{ font-style:italic; font-size:12px}
+/* End boxtin */
+
+form.hoidap input.info{ border:1px solid #ccc; padding:5px 1%; margin:5px 1% 5px 0; width:28%; float:left; border-radius:5px}
+form.hoidap input.info::after{ content:''; display:block; clear:both}
+form.hoidap textarea{ width:98%; padding:1%; border:1px solid #ccc; height:100px}
+form.hoidap input.code{ padding:5px 10px; border:1px solid #ccc} form.hoidap input[type="submit"]{ padding:5px 10px; border:1px solid #ccc; margin-left:5px; cursor:pointer}
+h3#datcauhoi{ margin:0; padding:0; background:url(img/qa.png) left center no-repeat; padding-left:35px; height:30px}
+div.cauhoi{ padding:6px 5px 6px 35px; border:1px solid #ccc; border-radius:5px; margin-bottom:10px; font-weight:bold; background:url(img/question.png) left top no-repeat; text-align:justify}
+div.traloi{ padding:0 5px 0 35px; margin-left:70px; margin-bottom:20px; background:url(img/answer.png) left top no-repeat; text-align:justify}
+a.datcauhoi{ clear:both; display:block; padding:3px 10px; border:1px dashed #f00; border-radius:5px; margin:20px 0; width:200px; text-align:center; font-weight:bold}
+
+#rating_panel{ margin:0; display:inline-block }
+#rating_panel img{ border:0}
+#rating_title{ margin:5px 0 }
+#kqrating{ display:inline; margin-top:-2px}
+hr.chitiet{ border:0; border-bottom:1px dashed #ccc; margin-bottom:5px; padding-bottom:5px}
+input.soluong{ border:1px solid #ccc; padding:6px 10px; border-radius:5px; width:50px; margin-right:5px}
+input.qtycart{ border:1px solid #ccc; padding:6px 10px; border-radius:5px; width:20px; margin-right:5px; color:#03f}
+input[type="button"].upqty{ border:1px solid #ccc; width:30px !important; height:28px !important; padding:4px 6px; border-radius:5px; width:10px; margin-right:5px; cursor:pointer;-webkit-appearance: none;} input[type="button"].upqty:hover{ background:#eee}
+input[type="button"].downqty{ border:1px solid #ccc; width:30px !important; height:28px !important; padding:4px 6px; border-radius:5px; width:10px; margin-right:5px; cursor:pointer;-webkit-appearance: none;} input[type="button"].downqty:hover{ background:#eee}
+
+
+/* CSS adv */
+.middleadv{ clear:both; margin-top:20px; display:inline-block; border:1px solid #eee; padding:1%; width:98%}
+.middleadv a:first-child{ width:48%; float:left} .middleadv a:first-child img{ border:0; max-width:100%}
+.middleadv a:last-child{ width:48%; float:right} .middleadv a:last-child img{ border:0; max-width:100%}
+
+.texttop{ display:inline-block; border:1px solid #ccc; background:#eee; width:99.85%; padding:5px 0}
+.texttop li{ width:25%; float:left} .texttop li p{ font-weight:bold} .texttop li img{ margin:0 5px -15px 30px; border:0; float:left}
+
+.leftadv img{ border:1px solid #eee; max-width:99.5%; margin-top:10px}
+
+/* CSS tìm nâng cao */
+form.advance ::-webkit-input-placeholder {color:#8B7158 }
+form.advance{ margin:10px}
+form.advance select{ border:1px solid #ccc; padding:5px; width:99.5%; border-radius:3px; margin-bottom:5px;color:#8B7158}
+form.advance input[type="text"]{border:1px solid #ccc; padding:5px; padding-left:10px; width:91%; border-radius:3px; margin-bottom:5px; color:#8B7158}
+form.advance input[type="submit"]{ display:block; padding:7px 20px; text-align:center; margin:0 auto; font-size:12px; background:#8B7158; color:#fff; margin-top:5px; border-radius:3px; cursor:pointer} form.advance input[type="submit"]:hover{ background:#0099FF}
+
+/* CSS Thành viên */
+form#formreg{ margin:20px; background:#eee url(img/register.png) right center no-repeat; padding:30px 20px 50px 20px}
+
+form#formlog{ margin:20px; background:#eee url(img/login.png) right center no-repeat; padding:30px 20px 50px 20px}
+.form_line{ clear:both; display:block; line-height:40px}
+.form_line span.tit{ width:20%; float:left; display:block}
+.form_line input{ border:1px solid #ccc; padding:5px; width:50%; float:left}
+.form_line input.macapcha{ width:120px !important;-webkit-appearance: none}
+.form_line input.buttonsubmit{ border:1px solid #ccc; padding:5px; width:51.3%; float:left; cursor:pointer;-webkit-appearance: none}
+.form_line span.status{ width:23%; float:left; margin-left:2%}
+.form_line input.btnlogin{ border:1px solid #ccc; background:#060; color:#fff; padding:5px; width:51.3%; float:left; cursor:pointer;-webkit-appearance: none}
+.form_line input.btnlogin:hover{background:#f60}
+/* BXSlider */
+.bx-wrapper {position: relative; margin: 0 auto; padding:0}
+.bx-wrapper img{width:100%}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {position: absolute; bottom: 10px; width: 100%; display:none}
+.bx-wrapper .bx-loading{min-height: 50px; background: url(../images/ajax-loader.gif) center center no-repeat #fff; width: 100%; position: absolute; top: 0; left: 0; z-index: 100}
+.bx-wrapper .bx-pager {text-align: center; font-size: .85em; font-family: Arial; font-weight: bold; color: #666; padding-top: 20px}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {display: inline-block; *zoom: 1; *display: inline}
+a.bx-pager-link { width:30px; height:30px; background:#ccc} a.bx-paper-link:active { background:#f00}
+.bx-wrapper .bx-pager.bx-default-pager a { background: #666; text-indent: -9999px; display: block; width: 10px; height: 10px; margin: 0 5px; outline: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {background: #000}
+.bx-wrapper .bx-prev { left: 10px; background: url(../images/controls.png) no-repeat 0 -32px} .bx-wrapper .bx-prev:hover {background-position: 0 0}
+.bx-wrapper .bx-next { right: 10px; background: url(../images/controls.png) no-repeat -43px -32px} .bx-wrapper .bx-next:hover {background-position: -43px 0}
+.bx-wrapper .bx-controls-direction a {position: absolute; top: 50%; margin-top: -16px; outline: 0; width: 32px; height: 32px; text-indent: -9999px; z-index: 100}
+.bx-wrapper .bx-controls-direction a.disabled {display: none}
+.bx-wrapper .bx-controls-auto {text-align: center}
+.bx-wrapper .bx-controls-auto .bx-start {display: block; text-indent: -9999px; width: 10px; height: 11px; outline: 0; background: url(../images/controls.png) -86px -11px no-repeat; margin: 0 3px}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {background-position: -86px 0}
+.bx-wrapper .bx-controls-auto .bx-stop {display: block; text-indent: -9999px; width: 9px; height: 11px; outline: 0; background: url(../images/controls.png) -86px -44px no-repeat; margin: 0 3px}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {background-position: -86px -33px}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager { text-align: left; width: 80%}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto { right: 0; width: 35px}
+.bx-wrapper .bx-caption {position: absolute;bottom: 0;left: 0;background: #666\9;background: rgba(80, 80, 80, 0.75);width: 100%}
+.bx-wrapper .bx-caption span {color: #fff; font-family: Arial; display: block; font-size: .85em; padding: 10px}
+/* End BXslider */
+
+.nav_up{padding:7px;background-color:white;border:1px solid #CCC;position:fixed;background:transparent url(../images/arrow_up.png) no-repeat top left;background-position:50% 50%;width:20px;height:20px;bottom:50px;opacity:0.7;right:30px;white-space:nowrap;cursor: pointer;border-radius:3px 3px 0 0;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70)}
+.nav_down{ padding:7px; background-color:white; border:1px solid #CCC; position:fixed; background:transparent url(../images/arrow_down.png) no-repeat top left; background-position:50% 50%; width:20px; height:20px; bottom:10px; opacity:0.7; right:30px; white-space:nowrap; cursor: pointer; border-radius:0 0 3px 3px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70)}
+
+/* Tab ul */
+ul.tabs {margin: 0; padding: 0;	float: left;list-style: none;	width: 100%;}
+ul.tabs li {float: left;margin: 0;padding: 0;height: 32px;line-height: 32px;border-left: none; border-bottom:1px solid #ccc; border-radius: 5px 5px 0 0;overflow: hidden;	position: relative; margin-bottom:10px}
+ul.tabs li a {text-decoration: none; display: block;font-size: 12px;padding: 0 15px;outline: none; cursor:pointer}
+ul.tabs li a:hover {background: #8B7158;color:#fff}	
+html ul.tabs li.active, html ul.tabs li.active a:hover{ border:1px solid #ccc;border-bottom:0;}
+
+.top10sp{height:70px}
+/* Code mới thêm */
+.top10sp img{float:left; margin-right:5px; max-width:70px} .top10sp h3{font-size:12px; font-weight:normal; line-height:20px; text-align:justify} .top10sp p{font-style: italic}
+ul.phanloaigia{padding:20px 0; overflow:hidden} ul.phanloaigia li{width:33%; float:left; text-align:center}
+ul.phanloaigia li a{padding-left:5px; font-size:14px; color:#000}
+
+ul.phanloaidm{padding:20px 0; overflow:hidden}  ul.phanloaidm img{float:left; padding-top:5px}
+ul.phanloaidm li{width:20%; padding:0 15% 0 10%; float:left; text-align:left}
+ul.phanloaidm li a{padding-left:5px; font-size:14px; color:#000} ul.phanloaidm li a:hover{text-decoration:underline}
+ul.phanloaidm li li{width:100%; padding:0; padding-left:10px}
+ul.phanloaidm li li a{padding-left:0px; font-size:12px; color:#444}
+
+.sapxepsp{background:#444; height:30px; color:#fff; font-size:13px}
+.sapxepsp .fan1{float:left; padding: 5px 5px 5px 15px;}
+.sapxepsp .fan2{float:right; padding-left:10px; padding-top:3px} 
+.sapxepsp .fan2 a i{width: 11px; height: 11px;  margin: 6px 0 0 5px;  float: right;  background: url(../images/arr-down.png) no-repeat}
+.sapxepsp .fan2 a b{width: 11px; height: 11px;  margin: 6px 0 0 5px;  float: right;  background: url(../images/arr-up.png) no-repeat}
+.sapxepsp .fan2 a{display:block; padding:2px 10px 5px; color:#fff; float:left; cursor:pointer}
+.sapxepsp .fan2 a:hover, .sapxepsp .fan2 a.sang{background:#fff; color:#444; border-left:1px solid #444; border-right:1px solid #444; padding:2px 8px 5px}
+.sapxepsp .fan2 a:hover i, .sapxepsp .fan2 a.sang i{background: url(../images/arr-down-active.png) no-repeat;}
+.sapxepsp .fan2 a:hover b, .sapxepsp .fan2 a.sang b{background: url(../images/arr-up-active.png) no-repeat;}
+
+ul.boxcart h2{font-size:13px; color:#666; margin:0} ul.boxcart h3{font-size:11px; color:#ccc; font-weight:normal; margin:0; line-height:20px}
+ul.boxcart img{max-width:40px; border:1px solid #ccc; padding:1px; float:left; margin:2px 5px 5px 0} ul.boxcart li{float:none !important; margin-right:0 !important}
+
+.boxviews h2{font-size:13px; color:#666; margin:5px 0; border-bottom:1px solid #ccc; padding-bottom:5px}
+.boxspviews{width:20% !important; float:left}
+.boxspviews .frame{ margin:5px 3px 10px 3px; position:relative; border:1px solid #ddd} .boxspviews .frame:hover{box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);}
+.boxspviews .frame .hinh{ height:185px !important; display:table !important; text-align:center; width:100%}
+.boxspviews .frame .hinh a{ display:table-cell !important}
+.boxspviews .frame .hinh a img{ width:auto; max-width:100% !important; max-height:185px}
+.boxspviews .frame .iconimg{ position:absolute; top:0; right:0} .boxspviews .frame .icontext{ position:absolute; top:5px; right:5px; padding:3px 7px; background-color: rgba(255,255,255,0.6); color:#f22e00; border-radius:5px; border: 1px dashed #f22e00;}
+.boxspviews .frame .price{padding: 5px; overflow:hidden} .boxspviews .frame .price img{float:left; padding-top:4px}
+.boxspviews .frame .price .giaban{color:#8B7158; font-size:14px; font-weight:bold; padding-left:5px; float:left}
+.boxspviews .frame .price p{float:right}
+.boxspviews .frame h3{ height:40px; margin:0; font-size:12px; color:#666; font-weight:normal; padding:0 5px; text-align:justify; border-bottom:1px dashed #ccc; line-height:18px} 
+.boxspviews .frame h3 a{color:#666} .boxspviews .frame h3 a:hover{text-decoration:underline}
+
+img.mausac{max-width:50px; border:1px solid #ccc; padding:1px; margin-right:5px}
+img.active{border:1px solid #f00 !important}
+
+.mausacform input[type="radio"]{display:none} .mausacform input[type="radio"] + label{display:inline-block; margin:0 !important}
+/* CSS boxsp 4 cot*/
+.boxspcot{ width:25%; float:left}
+.boxspcot .frame{ margin:5px 3px 10px 3px; position:relative; border:1px solid #ddd} .boxspcot .frame:hover{box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);}
+.boxspcot .frame .hinh{ height:185px ; text-align:center; width:100%}
+
+.boxspcot .frame .hinh a img{ width:auto; max-width:100% !important; max-height:185px}
+.boxspcot .frame .iconimg{ position:absolute; top:0; right:0} .boxspcot .frame .icontext{ position:absolute; top:5px; right:5px; padding:3px 7px; background-color: rgba(255,255,255,0.6); color:#f22e00; border-radius:5px; border: 1px dashed #f22e00;}
+.boxspcot .frame span.giamgia{ display:block; position:absolute; left:5px; top:5px; padding:3px 7px; background:#f22e00; color:#fff; border-radius:5px; font-size:16px; font-weight:bold; border:1px dashed #fff} .boxspcot .frame span.giamgia::after{ content:'%'; font-size:12px; margin-left:3px} .boxspcot .frame span.giamgia::before{ content:'-'; font-size:12px}
+.boxspcot .frame .price{padding: 5px; overflow:hidden} .boxspcot .frame .price img{float:left; padding-top:4px}
+.boxspcot .frame .price .giaban{color:#8B7158; font-size:12px; font-weight:bold; padding-left:5px; float:left}
+.boxspcot .frame .price p{float:right; font-size:11px}
+.boxspcot .frame h3{ height:40px; margin:0; font-size:12px; color:#666; font-weight:normal; padding:0 5px; text-align:justify; border-bottom:1px dashed #ccc; line-height:18px} 
+.boxspcot .frame h3 a{color:#666} .boxspcot .frame h3 a:hover{text-decoration:underline}
+
+.slideanh{width:95%}
+.slideanh .anhzoom{ width:100% !important; z-index:-1}
+.anslide{display:none}
+.borderimg {width: 45px; height: 45px; border: 2px solid #eee; margin: 2px}
+/* CSS JQZoom */
+.zoomPad{position:relative;float:left;z-index:99;cursor:crosshair;}
+.zoomPreload{ -moz-opacity:0.8;  opacity: 0.8; filter: alpha(opacity = 80); color: #333;font-size: 12px; font-family: Tahoma; text-decoration: none; border: 1px solid #CCC;  background-color: white; padding: 8px; text-align:center; background-image: url(../images/zoomloader.gif); background-repeat: no-repeat; background-position: 43px 30px; z-index:110; width:90px; height:43px; position:absolute; top:0px; left:0px; * width:100px; * height:49px;}
+.zoomPup{overflow:hidden;background:transparent url(../images/zoomlens_bg.png) repeat !important;-moz-opacity:0.6;opacity: 0.6;filter: alpha(opacity = 60);z-index:120;position:absolute;border:1px solid #CCC; z-index:101; cursor:move}
+.zoomOverlay{position:absolute;left:0px;top:0px;background:#FFF; z-index:5000;width:100%;height:100%;display:none; z-index:101}
+.zoomWindow{position:absolute;left:110%;top:40px;background:#FFF;z-index:6000;height:auto; z-index:10000; z-index:110;}
+.zoomWindow img{max-width:inherit}
+.zoomWrapper{position:relative;border:1px solid #999; z-index:110;}
+.zoomWrapperTitle{display:block;background:#999;color:#FFF;height:18px;line-height:18px;width:100%; overflow:hidden;text-align:center;font-size:10px; position:absolute; top:0px;  left:0px; z-index:120; -moz-opacity:0.6; opacity: 0.6; filter: alpha(opacity = 60);}
+.zoomWrapperImage{display:block; position:relative; overflow:hidden; z-index:110}
+.zoomWrapperImage img{ border:0px; display:block; position:absolute; z-index:101}
+.zoomIframe{ z-index: -1; filter:alpha(opacity=0); -moz-opacity: 0.80; opacity: 0.80; position:absolute; display:block}
+
+.mausacform{float:left}
+#loadtonkho{color:#f00; padding:15px 10px; float:left}
+
+.boxthanhcong{width:50%; margin:20px auto; padding:15px; border:3px solid #f00; overflow:hidden; line-height:24px; border-radius:5px}
+.boxthanhcong .tentc{float:left; width:45%; text-align:left; color:#09f; font-size:14px; font-weight:bold}
+.boxthanhcong .valuetc{float:right; width:40%; text-align:left; font-size:14px; color:#f00; font-weight:bold}
